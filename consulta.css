@@ -1,0 +1,64 @@
+h1,#titulo{
+    margin-top:1%;
+    font-size:350%;
+    margin-right:20%;
+    margin-left: 20%;
+    padding-bottom: 1%;
+    font-family: 'Nanum Gothic', sans-serif;   
+}
+h2{
+    font-size:250%;
+}
+
+h3{
+    font-size:250%;
+}
+
+.jumbotron {
+    background-image: url(header.jpg);
+    text-align: center;
+    padding-bottom: 50px;
+    color:greenyellow;
+}
+#email {
+    width: 100%;
+}
+#resumenapp {
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:30px;
+    color: black;    
+}   
+#Garantia{
+    font-size:220%;
+}
+#tarjetas{
+    width:100%;
+}
+.card-img-top {
+    width:100%;
+}     
+body {
+    position:relative;
+}
+footer {
+    background-image: url(footer.jpg);    
+    text-align: center;
+    color: white;
+    margin-top:50px;
+    padding-bottom: 50px;
+}
+address {
+    padding-top: 100px;
+    margin-left: 40%;
+}
+#crecer{
+    font-size:220%;
+}
+#DescargaApp{
+    font-size:220%;
+}
+#Copyright{
+    margin-top:80px;
+    font-size:70%;
+}

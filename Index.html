@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="normalize.css">
+        <script src="modernizr-custom.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">       
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">            
+
+        <link rel="stylesheet" href="consulta.css">
+
+        <title>Consulta.com, Validación de datos</title>
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar" data-offset="150">
+
+    <!-- Barra de Menú  -->
+
+        <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navbar">
+            <a class="navbar-brand" href="">
+                <img src="consulta_com.png" alt="brand">
+            </a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#jumbotron">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#acercade">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Copyright">Descargar app</a>
+                </li>
+            </ul>
+            <!-- <form class="form-inline pull-md-right">
+                <input class="form-control" type="email" placeholder="Email">
+                <input class="form-control" type="password" placeholder="Password">
+                <button class="btn btn-primary" type="submit">Ingresar</button>
+            </form> -->
+        </nav>
+
+    <!-- Banner  -->
+
+        <div class="jumbotron">
+            <h1> ¿QUIERES SABER QUE COMPRAN Y CÓMO PAGAN LOS CLIENTES DE TU MAYOR COMPETIDOR?</h1>
+            <h2 id="titulo">¡ AHORA PUEDES SABERLO !</h2>
+            <hr class="m-y-2">
+            <h4 style=>¿Deseas conocer más?</h4>
+            <p style=>¡Suscríbete hoy mismo para enviarte una muestra!</p>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="direccionEmail">Dirección de email</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">@</div>
+                        <input type="text" class="form-control" id="email" placeholder="Tu email">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Suscríbete</button>
+            </form>
+        </div>
+
+    <!-- Tarjetas de productos  -->
+
+        <div class="container" id="resumenapp">
+            <div class="row">
+                <h3 id="garantia">Obtendrás información que te garantiza</h3>
+                <p class="lead">Menor riesgo, mejores decisiones y mayor productividad.</p>
+            </div>
+        </div>
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="Clientes.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Clientes de tu mejor competidor</h4>
+                    <p class="card-text">Filtramos la información para obtener el segmento de mercado especifico que necesita. Utilizamos clasificadores según ubicación geográfica, actividad ecónomica, método de compra, frecuencia de compra, cantidad comprada, etc.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última actualización hace 17 días</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="Productos.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Productos que compran</h4>
+                    <p class="card-text">Utilizamos variedad de clasificadores para filtrar la información según el producto, especialidad, tipo de envase, segmento de mercado, producto mejor promocionado, cantidad e importe vendido, etc. En un rango de fechas especifico.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última actualización hace 25 días</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="Pagos.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Comportamiento de pago</h4>
+                        <p class="card-text">El comportamiento de nuestros clientes es el resultante de observar los movimientos de los clientes e identificar tendencias que pronostiquen un desenlace futuro, a no ser que se pueda efectuar una acción, ya sea esta para eliminar el efecto de la tendencia o bien suavizar su impacto.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última actualización hace 22 días</small>
+                </div>
+            </div>
+            <div class="card">
+                    <img class="card-img-top" src="Margen.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Margenes comerciales</h4>
+                        <p class="card-text">Filtramos la información para obtener el segmento de mercado especifico que necesita. Utilizamos clasificadores según ubicación geográfica, actividad ecónomica, método de compra, frecuencia de compra, cantidad comprada, etc.</p>                            
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Última actualización hace 22 días</small>
+                    </div>
+            </div>                
+            <!-- <div class="card">
+                    <img class="card-img-top" src="Margen.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Margenes comerciales</h4>
+                        <p class="card-text">Filtramos la información para obtener el segmento de mercado especifico que necesita. Utilizamos clasificadores según ubicación geográfica, actividad ecónomica, método de compra, frecuencia de compra, cantidad comprada, etc.</p>                            
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Última actualización hace 22 días</small>
+                    </div>
+            </div>     -->
+        </div>
+
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    </body>
+
+    <!-- Descarga Apps  -->
+
+    <footer>
+        <address>
+            <p id="DescargaApp">Descarga la app</p>
+            <p id="crecer">¡Empieza a crecer!</p>
+            <p id="androidapp"><a href=""><img src="androidapp.png"></a></p>
+            <p id="Copyright">© Copyright 2017 Consulta.com</p>   
+        </address>
+    </footer>
+</html>
